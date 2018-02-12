@@ -26,8 +26,8 @@ Note: Forgetting to commit, push, or check your assignment before the deadline i
 
 I affirm my awareness of the standards of the Cornell Code of Academic Integrity.
 
-Full Name:
+Full Name: Kathy Wang
 
-Date:
+Date: 2/12/2018
 
 ---
