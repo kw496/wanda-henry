@@ -1,0 +1,34 @@
+header #title {
+  padding: 2px;
+  font-size: 75px;
+}
+
+#menu {
+  display: inline;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu li {
+  margin: 0;
+  padding: 5px;
+  display: inline;
+}
+
+.resize {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+div {
+    display: block;
+    border: 5px solid black;
+    padding: 20pt;
+    margin: 20pt;
+    border-radius: 15px;
+}
