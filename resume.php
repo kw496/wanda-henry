@@ -1,3 +1,10 @@
+<?php
+include( "includes/init.php" );
+
+$current_page_id = "resume";
+ ?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -12,6 +19,7 @@
 
 <body>
   <?php include("includes/header.php");?>
+  <object width = "1000" height = "1000" data = "01102018_Resume.pdf"></object>
 </body>
 
 </html>

@@ -1,10 +1,23 @@
 <header>
-  <h1 id="title">Kathy T. Wang</h1>
-  <nav id="menu">
-    <ul>
-      <li><a href='index.php'>Work</a></li>
-      <li><a href='resume.php'>Resume</a></li>
-      <li><a href='about.php'>About</a></li>
-    </ul>
-  </nav>
+  <div class = "title_div">
+    <h1 id="title">KATHY T. WANG</h1>
+  </div>
+  <div class = "menu_div">
+    <nav id="menu">
+      <ul>
+
+        <?php
+        foreach( $pages as $id => $name ) {
+          if ( $id == $current_page_id ) {
+            $css = "id='current_page'";
+          } else {
+            $css = "";
+          }
+
+        echo "<li> <a " . $css . " href='" . $id. ".php'>$name</a></li>";
+      }
+      ?>
+      </ul>
+    </nav>
+  </div>
 </header>
