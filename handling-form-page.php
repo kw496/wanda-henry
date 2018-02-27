@@ -3,8 +3,8 @@ $user_name = filter_input(INPUT_POST, 'user_name', FILTER_SANITIZE_FULL_SPECIAL_
 $user_email = filter_input(INPUT_POST, 'user_email', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
 function output_message($name, $email) {
-  echo 'Thank you' . $name . '! Your message was sent perfectly. I will email you
-  at' . $email . '.';
+  echo 'Thank you ' . $name . '! Your message was sent perfectly. I will email you
+  at ' . $email . '.';
 }
 ?>
 

@@ -23,7 +23,7 @@ $current_page_id = "index";
     <img class = "resize" src = "images/venmo_logo.png" alt = "Venmo Logo">
     <div class = "child2">
       <p class = "align"> I redesigned Venmo, incorporating a group bill-splitting service in the app. </p>
-      <a href = "https://medium.com/@kathywang_72179/introdpd-pre-test-kw496-kathy-wang-5fa3c87e1eb8">
+      <a id = "case_study_link" href = "https://medium.com/@kathywang_72179/introdpd-pre-test-kw496-kathy-wang-5fa3c87e1eb8">
         View Case Study </a>
     </div>
   </div>
@@ -43,13 +43,12 @@ $current_page_id = "index";
     <img class = "resize" src = "images/WiCHacks_logo.jpg" alt = "WiCHacks Logo">
     <div class = "child2">
       <p class = "align"> I participated in my first hackathon, in which I designed a
-      website that simulated a collaborative design process for kids. My goal
-      was to bridge the gap between art and technology, and get girls immersed in technology
+      website that simulated a collaborative design process for kids. 
       at a young age. </p>
       <p> Case Study Coming Soon! </p>
     </div>
   </div>
-  
+
   <?php
   include( "includes/footer.php" );
    ?>

@@ -20,20 +20,20 @@ $current_page_id = "contact";
   <?php include("includes/header.php");?>
 
   <form action="handling-form-page.php" method="post">
-      <div>
-          <label for="name">Name:</label>
+      <div class = "contact_block">
+          <label for="name">Name</label> <br>
           <input type="text" id="name" name="user_name">
       </div>
-      <div>
-          <label for="email">Email:</label>
+      <div class = "contact_block">
+          <label class = "label" for="email">Email</label> <br>
           <input type="email" id="email" name="user_email">
       </div>
-      <div>
-          <label for="msg">Message:</label>
+      <div class = "contact_block">
+          <label for="msg">Message</label> <br>
           <textarea id="msg" name="user_message"></textarea>
       </div>
       <div class="button">
-          <button type="submit">Send your message</button>
+          <button type="submit">Send</button>
       </div>
   </form>
 </body>

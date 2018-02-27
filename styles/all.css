@@ -1,6 +1,6 @@
 header #title {
   font-size: 50px;
-  font-family: Lucida Console, Courier, monospace;
+  font-family: Verdana, Lucida Console, Courier, monospace;
   width: 300%;
 }
 
@@ -23,6 +23,11 @@ header #title {
   padding: 5px;
   display: inline;
   font-family: Verdana;
+  text-decoration: none;
+}
+
+#menu a {
+  text-decoration: none;
 }
 
 .title_div {
@@ -37,13 +42,14 @@ header #title {
 }
 
 .resize {
-    width: 250px;
-    height: 250px;
-    border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
 }
 
 .align {
   text-align: left;
+  line-height: 25px;
 }
 
 div {
@@ -58,6 +64,7 @@ div {
 .child2 {
   display: inline-block;
   width: 50%;
+  height: 100%;
   vertical-align: top;
   margin: 25px;
 }
@@ -67,31 +74,73 @@ div {
 }
 
 body {
-  margin: 150px;
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 75px;
+  background-color: #F6F6F6;
 }
 
 .personality_pic_resize {
-  width: 165%;
-  margin-bottom: 20px;
+  width: 40%;
+  margin: 0px;
+  border-radius: 15px;
 }
 
-.aboutchild1 {
-  display: inline-block;
-  width: 60%;
-}
 
 .aboutchild2 {
   display: inline-block;
   vertical-align: top;
-  width: 100%;
+  width: 270px;
+  margin: 20px;
+}
+
+.bio {
+  line-height: 25px;
 }
 
 #current_page {
   font-weight: bold;
   border-style: solid;
   padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+
 }
 
 footer {
   margin-top: 50px;
+}
+
+.contact_block {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 25%;
+}
+
+textarea {
+  width: 50%;
+  height: 1000%;
+}
+
+button {
+  width: 15%;
+}
+
+form {
+  border: solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.resume {
+  width: 50px;
+}
+
+#case_study_link{
+  text-decoration: none;
+  border: solid;
+  padding: 5px;
+  border-radius: 5px;
 }
