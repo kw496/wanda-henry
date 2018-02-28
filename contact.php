@@ -25,7 +25,7 @@ $current_page_id = "contact";
           <input type="text" id="name" name="user_name">
       </div>
       <div class = "contact_block">
-          <label class = "label" for="email">Email</label> <br>
+          <label for="email">Email</label> <br>
           <input type="email" id="email" name="user_email">
       </div>
       <div class = "contact_block">
