@@ -28,6 +28,7 @@ header #title {
 
 #menu a {
   text-decoration: none;
+  margin: 10px; 
 }
 
 .title_div {
