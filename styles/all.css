@@ -69,7 +69,8 @@ div {
   width: 50%;
   height: 100%;
   vertical-align: top;
-  margin: 25px;
+  margin-left: 25px;
+  padding: none; 
 }
 
 #helloheading {
@@ -149,6 +150,7 @@ form {
   background-color: #D9D9D9;
   color: black;
   padding: 15px 32px;
+  margin-top: 50px;
 }
 
 #resume {
