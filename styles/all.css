@@ -65,6 +65,7 @@ header #title {
 .align {
   text-align: left;
   line-height: 25px;
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
 }
 
 div {
@@ -113,6 +114,7 @@ body {
 
 .bio {
   line-height: 25px;
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
 }
 
 #current_page {
