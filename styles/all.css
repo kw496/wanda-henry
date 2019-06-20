@@ -21,9 +21,9 @@
 
 body {
   margin-top: 5%;
-  margin-left: 20%;
-  margin-right: 10%;
   margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 h1 {
@@ -67,22 +67,18 @@ h2 {
   color: #3B4358;
 }
 
-/* .logotextdiv {
-  margin: 0;
-} */
-
 .logo {
-  width: 15%;
-  height: 15%;
-  border-radius: 15px;
-  margin-right: 25px;
+  width: 20%;
+  height: 20%;
+  border-radius: 5%;
+  margin-right: 5%;
   margin-bottom: 5%;
-  display: inline-block; 
+  display: inline-block;
 }
 
 .textdiv {
   display: inline-block;
-  width: 50%;
+  width: 45%;
   height: 100%;
   vertical-align: top;
   padding: none;
@@ -118,11 +114,11 @@ footer {
 }
 
 #resume {
-  width: 85%;
+  width: 100%;
 }
 
 .personalitypic {
-  width: 40%;
+  width: 45%;
   margin-right: 5%;
   margin-bottom: 5%;
 }
