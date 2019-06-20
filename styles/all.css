@@ -67,9 +67,9 @@ h2 {
   color: #3B4358;
 }
 
-.logotextdiv {
-  margin-top: 1%;
-}
+/* .logotextdiv {
+  margin: 0;
+} */
 
 .logo {
   width: 15%;
@@ -77,11 +77,12 @@ h2 {
   border-radius: 15px;
   margin-right: 25px;
   margin-bottom: 5%;
+  display: inline-block; 
 }
 
 .textdiv {
   display: inline-block;
-  width: 400px;
+  width: 50%;
   height: 100%;
   vertical-align: top;
   padding: none;
