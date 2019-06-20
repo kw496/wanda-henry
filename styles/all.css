@@ -19,11 +19,17 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
 }
 
+body {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
 h1 {
   font-size: 32px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   text-decoration: none;
-  /* letter-spacing: 0; */
   margin-bottom: 0;
   color: #3B4358;
   font-weight: 600;
@@ -39,59 +45,33 @@ h2 {
   color: #3B4358;
 }
 
-#menu {
-  text-align: left;
-}
-
-#menu ul {
+#nav ul {
   margin: 0;
   padding: 0;
-  list-style: none;
   width: 60%;
   margin: 20px 0px 50px 0px;
 }
-/*
-#menu li {
-  margin: 0;
-  padding: 0px;
-  display: inline;
-  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
-  text-decoration: none;
-} */
 
-#menu a {
+#nav a {
   text-decoration: none;
-  margin-left: 0px;
-  padding-right: 7%;
+  margin-left: 0%;
+  padding-right: 5%;
   line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #959ba6;
   font-weight: 200;
   font-size: 18px;
-
 }
 
-#menu a:hover {
+#nav a:hover {
   color: #3B4358;
 }
 
-/* #menu a:visited {
-  color: black;
-  font-weight: bold;
-} */
-
-.title_div {
-  margin: 0;
-  width: 50%;
+.logotextdiv {
+  margin-top: 1%;
 }
 
-.menu_div {
-  margin: 0;
-  width: 75%;
-  text-align: right;
-}
-
-.resize {
+.logo {
   width: 15%;
   height: 15%;
   border-radius: 15px;
@@ -99,38 +79,7 @@ h2 {
   margin-bottom: 5%;
 }
 
-p.align {
-  text-align: left;
-  line-height: 29px;
-  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
-  color: #576a74;
-  font-weight: 200;
-  font-size: 18px;
-  margin-top: 0;
-  margin-right: 5%;
-}
-
-.bio {
-  text-align: left;
-  line-height: 29px;
-  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
-  color: #576a74;
-  font-weight: 200;
-  font-size: 18px;
-  margin-top: 0;
-  margin-right: 5%
-}
-
-div {
-    display: block;
-    font-family: Verdana;
-}
-
-.parent {
-  margin-top: 25px;
-}
-
-.child2 {
+.textdiv {
   display: inline-block;
   width: 400px;
   height: 100%;
@@ -138,89 +87,15 @@ div {
   padding: none;
 }
 
-/* #helloheading {
-  margin: 0;
+.text {
+  text-align: left;
+  line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
-  font-weight: bold;
-  color: #3B4358;
-} */
-
-body {
-  margin-top: 5%;
-  margin-left: 20%;
-  margin-right: 10%;
-  margin-bottom: 5%;
-  /* background-color: #FFFFFF; */
-  /* text-align: center;  */
-}
-
-.personality_pic_resize {
-  width: 40%;
+  color: #576a74;
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: 0;
   margin-right: 5%;
-  margin-bottom: 5%;
-}
-
-
-.aboutchild2 {
-  display: inline-block;
-  vertical-align: top;
-  width: 400px;
-  margin: 0px;
-}
-
-#current_page {
-  font-weight: bold;
-  border-style: solid;
-  padding: 2px 2px 2px 2px;
-  border-radius: 5px;
-
-}
-/*
-footer {
-  margin-top: 50px;
-} */
-
-.contact_block {
-  margin-bottom: 20px;
-}
-
-input {
-  width: 25%;
-}
-
-textarea {
-  width: 50%;
-  height: 1000%;
-}
-
-button {
-  width: 15%;
-}
-
-form {
-  border: solid;
-  padding: 15px;
-  border-radius: 10px;
-}
-
-img#resume {
-  width: 85%;
-}
-
-/* #case_study_link{
-  text-decoration: none;
-  border: none;
-  padding: 5px;
-  border-radius: 20px;
-  background-color: #D9D9D9;
-  color: black;
-  padding: 15px 32px;
-  margin-top: 100px;
-} */
-
-#resume {
-  width: 100%;
-  height: 100%
 }
 
 a {
@@ -239,5 +114,14 @@ footer {
   color: #576a74;
   font-weight: 200;
   font-size: 12px;
-  /* margin-top: 30%;  */
+}
+
+#resume {
+  width: 85%;
+}
+
+.personalitypic {
+  width: 40%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
