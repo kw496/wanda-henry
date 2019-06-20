@@ -56,3 +56,8 @@ Includes: On each page, there is
     1) a personality picture (an image) on the left, and  
     2) a text box with a short description of myself, including my school, career aspirations, interesting facts, and what design means to me.
     3) a "Contact Me" container with a text box that allows the user to input their name and a comment. After the user inputs this information, a message pops up, saying "Thank you [Name], I will reach out to you shortly!"
+
+  my colors are:
+
+pink: D1826F
+blue: 3B4358

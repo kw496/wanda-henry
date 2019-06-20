@@ -6,16 +6,15 @@
 }
 
 header #title {
-  font-size: 50px;
+  font-size: 32px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
-  /* font-family: 'Assistant-Light', sans-serif; */
-  /* width: 100%; */
   text-decoration: none;
-  letter-spacing: 0;
+  /* letter-spacing: 0; */
   margin-bottom: 0;
-  color: #2C3740;
-  font-weight: 200;
+  color: #3B4358;
+  font-weight: 800;
   letter-spacing: .01em;
+  line-height: 51px;
 }
 
 #menu {
@@ -34,16 +33,32 @@ header #title {
 
 #menu li {
   margin: 0;
-  padding: 5px;
+  padding: 0px;
   display: inline;
-  font-family: Verdana;
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   text-decoration: none;
 }
 
 #menu a {
   text-decoration: none;
-  margin: 10px;
+  margin-left: 0px;
+  padding-right: 20px;
+  line-height: 29px;
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  color: #576a74;
+  font-weight: 200;
+  font-size: 18px;
+
 }
+
+#menu a:hover {
+  color: #3B4358;
+}
+
+/* #menu a:visited {
+  color: black;
+  font-weight: bold;
+} */
 
 .title_div {
   margin: 0;
@@ -64,8 +79,11 @@ header #title {
 
 .align {
   text-align: left;
-  line-height: 25px;
+  line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  color: #576a74;
+  font-weight: 200;
+  font-size: 18px;
 }
 
 div {
@@ -88,33 +106,38 @@ div {
 
 #helloheading {
   margin: 0;
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  font-weight: bold;
+  color: #3B4358;
 }
 
 body {
   margin-top: 60px;
   margin-left: 200px;
-  margin-right: 200px;
+  margin-right: 50px;
   margin-bottom: 75px;
-  background-color: #F6F6F6;
+  background-color: #FFFFFF;
 }
 
 .personality_pic_resize {
   width: 40%;
   margin: 0px;
-  border-radius: 15px;
 }
 
 
 .aboutchild2 {
   display: inline-block;
   vertical-align: top;
-  width: 270px;
-  margin: 20px;
+  width: 400px;
+  margin-left: 30px;
 }
 
 .bio {
-  line-height: 25px;
+  line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  color: #576a74;
+  font-weight: 200;
+  font-size: 18px;
 }
 
 #current_page {
@@ -156,7 +179,7 @@ form {
   width: 50px;
 }
 
-#case_study_link{
+/* #case_study_link{
   text-decoration: none;
   border: none;
   padding: 5px;
@@ -164,10 +187,24 @@ form {
   background-color: #D9D9D9;
   color: black;
   padding: 15px 32px;
-  margin-top: 50px;
+  margin-top: 100px;
+} */
+
+#case_study_link {
+  text-decoration: none;
+  line-height: 29px;
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  color: #D1826F;
+  font-weight: 200;
+  font-size: 18px;
 }
 
 #resume {
   width: 100%;
   height: 100%
+}
+
+a {
+  text-decoration: none;
+  color: #D1826F;
 }
