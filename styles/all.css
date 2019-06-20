@@ -1,8 +1,22 @@
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
+}
 
+/** Regular */
 @font-face {
   font-family: "San Francisco";
   font-weight: 400;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
 }
 
 header #title {
@@ -12,7 +26,7 @@ header #title {
   /* letter-spacing: 0; */
   margin-bottom: 0;
   color: #3B4358;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: .01em;
   line-height: 51px;
 }
@@ -40,7 +54,7 @@ header #title {
 #menu a {
   text-decoration: none;
   margin-left: 0px;
-  padding-right: 20px;
+  padding-right: 7%;
   line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #959ba6;
@@ -150,10 +164,10 @@ body {
   border-radius: 5px;
 
 }
-
+/*
 footer {
   margin-top: 50px;
-}
+} */
 
 .contact_block {
   margin-bottom: 20px;
@@ -179,7 +193,7 @@ form {
 }
 
 img#resume {
-  width: 100%;
+  width: 85%;
 }
 
 /* #case_study_link{
@@ -212,11 +226,17 @@ a {
   color: #D1826F;
 }
 
+a:hover {
+  text-decoration: none;
+  color: #D1826F;
+  font-weight: bold;
+}
+
 footer {
   line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #576a74;
   font-weight: 200;
-  font-size: 18px;
+  font-size: 12px;
   /* margin-top: 30%;  */
 }
