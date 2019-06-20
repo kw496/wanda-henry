@@ -18,7 +18,7 @@ header #title {
 }
 
 #menu {
-  display: inline;
+  /* display: inline; */
   text-align: left;
 }
 
@@ -27,17 +27,17 @@ header #title {
   padding: 0;
   list-style: none;
   width: 60%;
-  text-align: left;
+  /* text-align: left; */
   margin: 20px 0px 50px 0px;
 }
-
+/*
 #menu li {
   margin: 0;
   padding: 0px;
   display: inline;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   text-decoration: none;
-}
+} */
 
 #menu a {
   text-decoration: none;
@@ -72,18 +72,20 @@ header #title {
 }
 
 .resize {
-  width: 200px;
-  height: 200px;
+  width: 15%;
+  height: 15%;
   border-radius: 15px;
+  margin-right: 25px;
 }
 
-.align {
+p.align {
   text-align: left;
   line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #576a74;
   font-weight: 200;
   font-size: 18px;
+  margin-top: 0;
 }
 
 div {
@@ -97,10 +99,9 @@ div {
 
 .child2 {
   display: inline-block;
-  width: 50%;
+  width: 400px;
   height: 100%;
   vertical-align: top;
-  margin-left: 25px;
   padding: none;
 }
 
@@ -112,16 +113,17 @@ div {
 }
 
 body {
-  margin-top: 60px;
-  margin-left: 200px;
-  margin-right: 50px;
-  margin-bottom: 75px;
-  background-color: #FFFFFF;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  /* background-color: #FFFFFF; */
+  /* text-align: center;  */
 }
 
 .personality_pic_resize {
   width: 40%;
-  margin: 0px;
+  margin-right: 25px;
 }
 
 
@@ -129,7 +131,7 @@ body {
   display: inline-block;
   vertical-align: top;
   width: 400px;
-  margin-left: 30px;
+  margin: 0px;
 }
 
 .bio {
@@ -175,8 +177,8 @@ form {
   border-radius: 10px;
 }
 
-.resume {
-  width: 50px;
+img#resume {
+  width: 100%;
 }
 
 /* #case_study_link{
@@ -207,4 +209,13 @@ form {
 a {
   text-decoration: none;
   color: #D1826F;
+}
+
+footer {
+  line-height: 29px;
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  color: #576a74;
+  font-weight: 200;
+  font-size: 18px;
+  /* margin-top: 30%;  */
 }
