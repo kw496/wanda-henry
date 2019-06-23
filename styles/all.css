@@ -19,6 +19,10 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
 }
 
+header {
+  margin-bottom: 10%;
+}
+
 body {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -35,6 +39,9 @@ h1 {
   font-weight: 600;
   letter-spacing: .01em;
   line-height: 51px;
+  width: 40%;
+  margin-right: 0;
+  display: inline-block;
 }
 
 h2 {
@@ -45,17 +52,35 @@ h2 {
   color: #3B4358;
 }
 
-#nav ul {
-  margin: 0;
-  padding: 0;
-  width: 60%;
-  margin: 20px 0px 50px 0px;
+#personallogo {
+  width: 15%;
 }
+
+#personallogodiv {
+  text-align: right;
+  width: 40%;
+  margin: 0;
+  display: inline-block;
+}
+
+nav {
+  width: 50%;
+  margin-right: 0;
+  display: inline-block;
+  text-align: right;
+}
+/*
+#nav ul {
+  padding: 0;
+  width: 70%;
+  margin-bottom: 15%;
+  margin-right: 0%;
+} */
 
 #nav a {
   text-decoration: none;
   margin-left: 0%;
-  padding-right: 5%;
+  padding-left: 5%;
   line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #959ba6;
@@ -73,7 +98,6 @@ h2 {
   border-radius: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
-  display: inline-block;
 }
 
 .textdiv {
