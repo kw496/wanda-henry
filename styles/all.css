@@ -85,6 +85,10 @@ nav {
   color: #3B4358;
 }
 
+.logotextdiv {
+  margin-bottom: 1%;
+}
+
 .logo {
   width: 20%;
   height: 20%;
@@ -122,12 +126,28 @@ a:hover {
   color: #BE5941;
 }
 
-footer {
+h3 {
   line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #576a74;
   font-weight: 200;
   font-size: 12px;
+  /* display: flex-inline; */
+  width: 30%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.contactlogo {
+  width: 5%;
+  text-align: right;
+}
+
+.contactlogodiv {
+  text-align: left;
+  width: 500px;
+  margin-right: 0;
+  /* display: flex-inline; */
 }
 
 #resume {
