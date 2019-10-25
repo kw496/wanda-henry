@@ -116,6 +116,12 @@ nav {
   margin-right: 5%;
 }
 
+@media screen and (max-width: 800px) {
+  .logo, .text {
+    width: 100%; 
+  }
+}
+
 a {
   text-decoration: none;
   color: #D1826F;
