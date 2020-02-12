@@ -21,6 +21,9 @@
 
 header {
   margin-bottom: 5%;
+  /* text-align: right; */
+  display: flex;
+  justify-content: space-between;
 }
 
 body {
@@ -28,20 +31,25 @@ body {
   margin-bottom: 5%;
   margin-left: 20%;
   margin-right: 20%;
+  height: 100%;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.lastname {
+  color: #546FD6;
 }
 
 h1 {
   font-size: 32px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   text-decoration: none;
-  margin-bottom: 0;
+  margin: 0;
   color: #3B4358;
   font-weight: 600;
   letter-spacing: .01em;
   line-height: 51px;
   width: 40%;
-  margin-right: 0;
-  display: inline-block;
 }
 
 h2 {
@@ -68,6 +76,7 @@ nav {
   margin-right: 0;
   display: inline-block;
   text-align: right;
+  /* direction: rtl; */
 }
 
 #nav a {
@@ -99,6 +108,15 @@ nav {
 
 .textdiv {
   display: inline-block;
+  width: 74%;
+  height: 100%;
+  vertical-align: top;
+  padding: none;
+  /* float: right;  */
+}
+
+.abouttextdiv {
+  float: right;
   width: 45%;
   height: 100%;
   vertical-align: top;
@@ -133,7 +151,7 @@ a:hover {
   color: #BE5941;
 }
 
-h3 {
+  {
   line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #576a74;
@@ -165,4 +183,21 @@ h3 {
   width: 45%;
   margin-right: 5%;
   margin-bottom: 5%;
+}
+
+h3 {
+  line-height: 29px;
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  color: #576a74;
+  font-weight: 200;
+  font-size: 12px;
+  /* display: flex-inline; */
+  width: 30%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#link {
+  color: #546FD6;
+  font-weight: bold;
 }
