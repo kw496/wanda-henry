@@ -133,12 +133,6 @@ nav {
   width: 100%;
 }
 
-@media screen and (max-width: 800px) {
-  .logo, .textdiv {
-    width: 100%;
-  }
-}
-
 a {
   text-decoration: none;
   color: #546FD6;
@@ -149,17 +143,17 @@ a {
   color: #BE5941;
 } */
 
-  {
+  /* {
   line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #576a74;
   font-weight: 200;
-  font-size: 12px;
+  font-size: 12px; */
   /* display: flex-inline; */
-  width: 30%;
+  /* width: 30%;
   margin-left: 0;
   margin-right: 0;
-}
+} */
 
 .contactlogo {
   width: 5%;
@@ -197,4 +191,23 @@ h3 {
 
 .firstname {
   color: #000000;
+}
+
+@media screen and (max-width: 450px) {
+  .logo, .textdiv, .personalitypic, .abouttextdiv {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    justify-content: center;
+  }
 }
