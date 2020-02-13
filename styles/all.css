@@ -206,8 +206,24 @@ h3 {
   }
 }
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
   header {
     justify-content: center;
   }
+} */
+/* 
+@media screen and (max-width: 450px) {
+  nav {
+    position: absolute;
+    right: 0;
+  }
 }
+
+@media screen and (max-width: 450px) {
+  h1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+} */
