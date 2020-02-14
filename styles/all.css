@@ -191,58 +191,70 @@ h3 {
   color: #000000;
 }
 
-@media screen and (max-width: 450px) {
-  .logo, .textdiv, .personalitypic, .abouttextdiv {
+footer {
+  display: inline-block;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .logo, .textdiv {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
+  .personalitypic, .abouttextdiv {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
   body {
     margin-left: 5%;
     margin-right: 5%;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
   header {
     display: inline;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
   nav {
     text-align: center;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
   h1 {
     text-align: center;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
   ul {
     padding: 0;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
   #nav a {
     padding: 0%;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
   #nav {
     margin-bottom: 5%;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
   #work, #resume {
     margin-left: 35px;
     margin-right: 35px;
