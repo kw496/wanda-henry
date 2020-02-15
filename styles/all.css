@@ -211,6 +211,10 @@ footer {
   width: 100%;
 }
 
+#lastlogotextdiv {
+  margin-bottom: 0%;
+}
+
 @media screen and (max-width: 600px) {
   .logo, .textdiv {
     width: 100%;
