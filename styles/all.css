@@ -217,6 +217,10 @@ h3 {
   color: #3b4358;
 }
 
+.firstname:hover {
+  color:#959ba6;
+}
+
 footer {
   display: inline-block;
   width: 100%;
