@@ -67,7 +67,7 @@ h2 {
   /* font-size: 24px */
   /* color: #3B4358; */
   /* color: #546FD6; */
-} */
+/* } */
 
 #personallogo {
   width: 15%;
@@ -195,7 +195,7 @@ h5 {
   color: #3B4358;
   font-weight: 400;
   font-size: 12px;
-  width: 30%;
+  width: 100%;
   margin-left: 0;
   margin-right: 0;
 }
@@ -215,6 +215,7 @@ h3 {
 footer {
   display: inline-block;
   width: 100%;
+  margin-right: 0;
 }
 
 #lastlogotextdiv {
