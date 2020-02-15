@@ -103,6 +103,10 @@ nav {
   color: #3B4358;
 }
 
+#nav a:active{
+  color: #3B4358;
+}
+
 .logotextdiv {
   margin-bottom: 7%;
 }
@@ -338,4 +342,8 @@ footer {
     margin-left: 35px;
     margin-right: 35px;
   }
+}
+
+#work:target {
+
 }
