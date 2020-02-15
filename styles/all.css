@@ -231,6 +231,35 @@ footer {
   margin-bottom: 0%;
 }
 
+.cta {
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  font-weight: 600;
+  color: #3b4358;
+  border: 1px solid #546FD6;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 10px;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.cta:hover {
+  color: #90A1E5;
+  border: 1px solid #90A1E5;
+}
+
+.comingsoon {
+  font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  font-weight: 600;
+  color: #3b4358;
+  border: 1px solid #3B4358;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 10px;
+  white-space: nowrap;
+  display: inline-block;
+}
+
 @media screen and (max-width: 600px) {
   .logo, .textdiv {
     width: 100%;
