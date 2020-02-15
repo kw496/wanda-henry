@@ -1,7 +1,7 @@
 /** Thin */
 @font-face {
   font-family: "San Francisco";
-  font-weight: 200;
+  font-weight: 400;
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
 }
 
@@ -82,7 +82,7 @@ nav {
   line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #959ba6;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 18px;
 }
 
@@ -125,7 +125,7 @@ nav {
   line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #576a74;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 18px;
   margin-top: 0;
   margin-right: 5%;
@@ -146,7 +146,7 @@ a {
   line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #576a74;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 12px; */
   /* display: flex-inline; */
   /* width: 30%;
@@ -180,7 +180,7 @@ h5 {
   line-height: 29px;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   color: #576a74;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 12px;
   /* display: flex-inline; */
   width: 30%;
