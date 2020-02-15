@@ -242,9 +242,11 @@ footer {
   border: 1px solid #546FD6;
   border-radius: 5px;
   padding: 15px;
-  font-size: 10px;
+  font-size: 12px;
   white-space: nowrap;
   display: inline-block;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .cta:hover {
@@ -259,9 +261,11 @@ footer {
   border: 1px solid #3B4358;
   border-radius: 5px;
   padding: 15px;
-  font-size: 10px;
+  font-size: 12px;
   white-space: nowrap;
   display: inline-block;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 600px) {
