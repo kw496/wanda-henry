@@ -238,15 +238,19 @@ footer {
 .cta {
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   font-weight: 600;
-  color: #3b4358;
+  color: #546FD6;
   border: 1px solid #546FD6;
   border-radius: 5px;
-  padding: 15px;
+  padding: 10px;
   font-size: 12px;
   white-space: nowrap;
   display: inline-block;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-top: 5%;
+  display: block;
+  width: 30%;
+  text-align: center;
 }
 
 .cta:hover {
@@ -260,12 +264,32 @@ footer {
   color: #3b4358;
   border: 1px solid #3B4358;
   border-radius: 5px;
-  padding: 15px;
+  padding: 10px;
   font-size: 12px;
   white-space: nowrap;
   display: inline-block;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-top: 5%;
+  display: block;
+  width: 55%;
+  text-align: center;
+
+  /* font-family: "San Francisco", "Helvetica Nueue", sans-serif;
+  font-weight: 600;
+  color: #3b4358;
+  border: 1px solid #3b4358;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 12px;
+  white-space: nowrap;
+  display: inline-block;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 5%;
+  display: block;
+  width: 45%;
+  text-align: center; */
 }
 
 @media screen and (max-width: 600px) {
