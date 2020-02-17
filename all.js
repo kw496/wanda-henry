@@ -1,4 +1,6 @@
+window.onload = () => {
 $("#nav a").on("click", function(){
-   $("#nav").find(".active").removeClass("active");
+   $("#nav a").find(".active").removeClass("active");
    $(this).parent().addClass("active");
 });
+}
