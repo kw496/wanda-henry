@@ -1,8 +1,8 @@
-# Project 1
+# Wanda Henry Website
 
-See the course web page for Project 1's requirements.
+This is the website for Wanda Henry. It was designed and built by Kathy Wang.
 
-# Submission Instructions
+<!-- # Submission Instructions
 
 At 5:00pm on the deadline, the instructor will download your submission. If a *grademe.md* file exists, your assignment will be graded. If it does not exist, we will assume you are using your slip days. After 2 days, if you have not submitted a grademe.md file, we will assume you are not turning in the assignment and we will give you a zero.
 
@@ -16,4 +16,4 @@ See [submit-m1.md](submit-m1.md)
 
 ## Final Submission
 
-See [submit-final.md](submit-final.md)
+See [submit-final.md](submit-final.md) -->
