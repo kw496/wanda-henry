@@ -50,11 +50,15 @@ h1 {
 
 h2 {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 5%;
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   font-weight: 600;
-  color: #546fd6;
+  /* color: #546fd6; */
 }
+
+/* p {
+  white-space: pre-line;
+} */
 
 #hiimkathy {
   margin-bottom: 5%;
@@ -169,6 +173,10 @@ index.html:target {
   width: 100%;
 }
 
+#contacttext {
+  width: 60%;
+}
+
 a {
   text-decoration: none;
   color: #546FD6;
@@ -202,8 +210,35 @@ a:hover {
   /* display: flex-inline; */
 }
 
-.resume {
+.headshot_div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
   width: 100%;
+  /* height: 100%; */
+}
+
+.bio {
+  width: 30%;
+}
+
+.headshot {
+  width: 100%;
+  /* margin-left: 0;
+  margin-right: 0; */
+  /* height: 40%; */
+}
+
+#biotext {
+  margin-top: 10%;
+}
+
+
+
+#rightheadshot {
+  margin-right: 0%;
 }
 
 .personalitypic {
@@ -307,7 +342,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .logo, .textdiv {
+  .logo, .textdiv, #contacttext {
     width: 100%;
 
   }
@@ -380,12 +415,12 @@ footer {
 }
 
 @media screen and (max-width: 750px) {
-  #work, #resume {
+  #about, #team {
     margin-left: 35px;
     margin-right: 35px;
   }
 }
 
-#work:target {
+/* #about:target {
 
-}
+} */
