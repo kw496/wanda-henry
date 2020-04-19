@@ -1,6 +1,8 @@
 # Wanda Henry Website
 
-This is the website for Wanda Henry. It was designed and built by Kathy Wang.
+This is the website for Wanda Henry.
+
+It was designed and built by Kathy Wang, and it is owned by Young Wang.
 
 <!-- # Submission Instructions
 
