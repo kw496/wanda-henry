@@ -342,7 +342,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .logo, .textdiv, #contacttext {
+  .logo, .textdiv, #contacttext, .headshot_div {
     width: 100%;
 
   }
