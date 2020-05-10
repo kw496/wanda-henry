@@ -84,6 +84,17 @@ h2 {
   display: inline-block;
 }
 
+.social_media_logo_div {
+  text-align: left;
+  width: 40%;
+  margin: 0;
+  display: inline-block;
+}
+
+#social_media_logo {
+  width: 25%;
+}
+
 nav {
   width: 50%;
   /* margin-right: 0; */
@@ -179,7 +190,7 @@ index.html:target {
 
 a {
   text-decoration: none;
-  color: #546FD6;
+  color: #546FD6; 
 }
 
 a:hover {
@@ -226,14 +237,12 @@ a:hover {
 
 .headshot {
   width: 100%;
-  /* margin-left: 0;
-  margin-right: 0; */
-  /* height: 40%; */
+  margin-bottom: 5%;
 }
 
-#biotext {
+/* #biotext {
   margin-top: 10%;
-}
+} */
 
 
 #rightheadshot {
@@ -262,7 +271,9 @@ h3 {
   font-weight: 400;
   color: #959ba6;
   margin: 16px 0px;
-  font-size: 18px;
+  font-size: 16px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 .firstname {
