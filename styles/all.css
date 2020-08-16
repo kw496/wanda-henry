@@ -393,7 +393,13 @@ footer {
 }
 
 @media screen and (max-width: 1312px) {
-  .personalitypic, .abouttextdiv, #whlogodiv {
+  .personalitypic, .abouttextdiv, #whlogodiv, .whatwedo-img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1312px) {
+  .whatwedo-img {
     width: 100%;
   }
 }
@@ -586,4 +592,17 @@ footer {
   margin: 48px 0;
   width: 220px;
   height: 180px;
+}
+
+@media screen and (max-width: 1312px) {
+  .whatwedo-img{
+    width: 100%;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 1312px) {
+  body, #whatwedo-header {
+    text-align: center;
+  }
 }
