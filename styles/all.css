@@ -510,7 +510,7 @@ footer {
 }
 
 #whatwedo {
-  margin-top: 32px;
+  margin-top: 64px;
 }
 
 
@@ -579,4 +579,10 @@ footer {
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
+}
+
+.whatwedo-img {
+  margin: 48px 0;
+  width: 220px;
+  height: 180px;
 }
