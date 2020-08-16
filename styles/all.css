@@ -89,7 +89,7 @@ h2 {
 
 #whlogodiv {
   text-align: center;
-  margin-right: 10px;
+  margin-right: 0px;
   display: flex;
   align-items: center;
   /* height: 100%; */
@@ -131,6 +131,7 @@ nav {
   font-weight: 400;
   font-size: 18px;
 }
+
 
 #nav a:hover {
   color: #3B4358;
@@ -412,6 +413,7 @@ footer {
 
 @media screen and (max-width: 1312px) {
   #whlogodiv, #whlogo {
+    display: block;
     margin: 0 auto 16px;
   }
 }
@@ -482,6 +484,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 1312px) {
+  .abouttextdiv {
+    margin-bottom: 48px;
+  }
+}
+
 
 
 .column {
@@ -507,4 +515,19 @@ footer {
 
 #whatwedo-header {
   font-weight: bold;
+}
+
+body {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+     }
 }
