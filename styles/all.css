@@ -24,6 +24,9 @@ header {
   /* text-align: right; */
   display: flex;
   justify-content: space-between;
+  /* justify-content: flex-end;  */
+  /* margin-left: auto; */
+  align-items: center;
 }
 
 body {
@@ -50,7 +53,7 @@ h1 {
 
 h2 {
   margin-top: 0;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
   font-family: "San Francisco", "Helvetica Nueue", sans-serif;
   font-weight: 600;
   /* color: #546fd6; */
@@ -84,6 +87,20 @@ h2 {
   display: inline-block;
 }
 
+#whlogodiv {
+  text-align: center;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  /* height: 100%; */
+  text-align: right;
+  width: 0px;
+}
+
+#whlogo {
+  height: 32px;
+}
+
 .social_media_logo_div {
   text-align: left;
   width: 40%;
@@ -100,6 +117,7 @@ nav {
   /* margin-right: 0; */
   display: inline-block;
   text-align: right;
+  /* float: right; */
   /* direction: rtl; */
 }
 
@@ -190,7 +208,7 @@ index.html:target {
 
 a {
   text-decoration: none;
-  color: #546FD6; 
+  color: #546FD6;
 }
 
 a:hover {
@@ -372,65 +390,121 @@ footer {
   }
 }
 
-@media screen and (max-width: 750px) {
-  .personalitypic, .abouttextdiv {
+@media screen and (max-width: 1312px) {
+  .personalitypic, .abouttextdiv, #whlogodiv {
     width: 100%;
   }
 }
 
+@media screen and (max-width: 600px) {
+  div.column, .text {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+}
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 600px) {
+  div#middle-column{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1312px) {
+  #whlogodiv, #whlogo {
+    margin: 0 auto 16px;
+  }
+}
+
+
+@media screen and (max-width: 1312px) {
   body {
     margin-left: 5%;
     margin-right: 5%;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1312px) {
   header {
     display: inline;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 600px) {
+  .headshot_div {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.bio {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 1312px) {
   nav {
     text-align: center;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1312px) {
   h1 {
     text-align: center;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1312px) {
   ul {
     padding: 0;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1312px) {
   #nav a {
     padding: 0%;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1312px) {
   #nav {
     margin-bottom: 5%;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1312px) {
   #about, #team {
     margin-left: 35px;
     margin-right: 35px;
   }
 }
 
-/* #about:target {
 
-} */
+
+.column {
+  float: left;
+  width: 30%;
+}
+
+#middle-column {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#whatwedo {
+  margin-top: 32px;
+}
+
+#whatwedo-header {
+  font-weight: bold;
+}
