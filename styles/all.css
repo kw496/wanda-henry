@@ -513,21 +513,70 @@ footer {
   margin-top: 32px;
 }
 
+
 #whatwedo-header {
   font-weight: bold;
 }
 
-body {
+/* body {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-}
+} */
 
 @keyframes fadeInAnimation {
     0% {
-        opacity: 0.5;
+        opacity: 0;
     }
     100% {
         opacity: 1;
      }
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.slower-animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  /* animation-delay: 1s; */
+
+}
+
+/* .animatedFadeInUp {
+    opacity: 0
+} */
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
 }
