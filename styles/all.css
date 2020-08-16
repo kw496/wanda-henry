@@ -567,7 +567,7 @@ footer {
   animation-fill-mode: both;
   -webkit-animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  /* animation-delay: 1s; */
+  animation-delay: 0.2s;
 
 }
 
